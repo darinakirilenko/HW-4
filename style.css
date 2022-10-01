@@ -1,0 +1,35 @@
+
+.list a[href^="https"]
+{
+    color: red;
+    
+} 
+
+ul + p {
+    font-size: 24px;
+}
+
+
+/* <!-- 3 task --> */
+
+
+.text-box > :nth-child(1) {
+    color: pink;
+}
+
+
+#greycol  {
+    color: gray;
+}
+
+.text-box :nth-last-child(2) {
+    color: green;
+}
+
+div :only-child {
+    color: red;
+    }
+
+.yellow  {
+    color:yellow
+}
